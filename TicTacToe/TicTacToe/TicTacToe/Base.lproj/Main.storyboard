@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TicTacToe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grid" translatesAutoresizingMaskIntoConstraints="NO" id="tlL-OC-Izb">
+                                <rect key="frame" x="16" y="91" width="343" height="343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tic-Tac-Toe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AA2-0l-lo7">
+                                <rect key="frame" x="16" y="28" width="343" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialHebrew-Light" family="Arial Hebrew" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ytt-la-zQi" customClass="GridView" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="16" y="91" width="110" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bFn-yO-vCB" customClass="GridView" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="16" y="220" width="110" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pfN-ja-A5f" customClass="GridView" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="249" y="220" width="110" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IfT-bp-kuA" customClass="GridView" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="16" y="328" width="110" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hI0-oY-WCP" customClass="GridView" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="249" y="91" width="110" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P4i-mu-QDH" customClass="GridView" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="249" y="328" width="110" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TeN-eA-cOj" customClass="GridView" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="143" y="220" width="90" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="897-5H-1rj" customClass="GridView" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="143" y="328" width="90" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zHk-ss-ni5" customClass="GridView" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="143" y="91" width="90" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="1kb-IP-nTW" customClass="XandO" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="41" y="514" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="CNI-cJ-cva" customClass="XandO" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="41" y="577" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="XSM-mN-Jcr" customClass="XandO" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="96" y="577" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="ekO-Tg-olP" customClass="XandO" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="139" y="533" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="8LO-7x-zaV" customClass="XandO" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="139" y="453" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="o" translatesAutoresizingMaskIntoConstraints="NO" id="QlN-tF-z2t" customClass="XandO" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="243" y="514" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="o" translatesAutoresizingMaskIntoConstraints="NO" id="lOC-sL-DTK" customClass="XandO" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="269" y="442" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="o" translatesAutoresizingMaskIntoConstraints="NO" id="uZK-ZB-IIw" customClass="XandO" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="285" y="514" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="o" translatesAutoresizingMaskIntoConstraints="NO" id="ybT-Fb-nq2" customClass="XandO" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="285" y="577" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view hidden="YES" alpha="0.29999999999999999" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F24-Ye-LgK">
+                                <rect key="frame" x="0.0" y="0.0" width="639" height="924"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view hidden="YES" alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oSs-EY-QGn" customClass="EndGamePopUp" customModule="TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="67" y="442" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDi-To-bN7">
+                                        <rect key="frame" x="8" y="33" width="224" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAh-9x-Gh6">
+                                        <rect key="frame" x="53" y="73" width="135" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="New Game"/>
+                                        <connections>
+                                            <action selector="popUpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bcr-51-wqz"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="blackFilter" destination="F24-Ye-LgK" id="57b-0A-EzN"/>
+                        <outlet property="bottomLeft" destination="IfT-bp-kuA" id="Xtu-Fq-Vbr"/>
+                        <outlet property="bottomMiddle" destination="897-5H-1rj" id="BZQ-ZA-hAy"/>
+                        <outlet property="bottomRight" destination="P4i-mu-QDH" id="Bjt-We-JxM"/>
+                        <outlet property="button" destination="uAh-9x-Gh6" id="Htf-hk-RLx"/>
+                        <outlet property="circle" destination="QlN-tF-z2t" id="mUm-XF-32D"/>
+                        <outlet property="circle2" destination="lOC-sL-DTK" id="94C-k9-NtJ"/>
+                        <outlet property="circle3" destination="uZK-ZB-IIw" id="lHW-Uv-5g2"/>
+                        <outlet property="circle4" destination="ybT-Fb-nq2" id="5EF-Wr-9PB"/>
+                        <outlet property="cross" destination="1kb-IP-nTW" id="ed4-KJ-mer"/>
+                        <outlet property="cross2" destination="8LO-7x-zaV" id="f74-DV-Ikk"/>
+                        <outlet property="cross3" destination="ekO-Tg-olP" id="X9J-02-SJz"/>
+                        <outlet property="cross4" destination="XSM-mN-Jcr" id="efD-cs-pJV"/>
+                        <outlet property="cross5" destination="CNI-cJ-cva" id="ODR-Yt-Vx3"/>
+                        <outlet property="middleCenter" destination="TeN-eA-cOj" id="ng3-JO-i40"/>
+                        <outlet property="middleLeft" destination="bFn-yO-vCB" id="Yf0-bg-LuC"/>
+                        <outlet property="middleRight" destination="pfN-ja-A5f" id="rTK-hY-rYh"/>
+                        <outlet property="popUp" destination="oSs-EY-QGn" id="UCg-9X-Mip"/>
+                        <outlet property="popUpLabel" destination="kDi-To-bN7" id="ZMs-GS-2Te"/>
+                        <outlet property="topCenter" destination="zHk-ss-ni5" id="rkE-bm-pEx"/>
+                        <outlet property="topLeft" destination="ytt-la-zQi" id="Aqw-H9-dCG"/>
+                        <outlet property="topRight" destination="hI0-oY-WCP" id="AxH-xY-lg5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="136.28185907046478"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="grid" width="600" height="600"/>
+        <image name="o" width="200" height="200"/>
+        <image name="x" width="200" height="200"/>
+    </resources>
+</document>
