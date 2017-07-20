@@ -1,10 +1,10 @@
-README
-Galaga - Endless Wave Mode
+#Galaga - Endless Wave Mode
 
-Description:
+###Description:
 A version of Galaga with endless waves of enemies.
 
-Controls:
+###Controls:
+
     Main Menu:
         Space - Select
         Up Arrow - Up
@@ -15,7 +15,7 @@ Controls:
         Left Arrow - Left
         Right Arrow - Right
 
-Basic features:
+###Basic features:
 -Ship can move left to right
 -Displays lives
 -Displays score
@@ -29,7 +29,7 @@ Basic features:
 -Sprites represent ship and enemies
 -MVC model implemented
 
-Additional features:
+###Additional features:
 -Fighters come in at trajectories all at once
 -Bullets are fired at 3 angles by every enemy
 -Explosion animation for enemies and player
@@ -39,7 +39,7 @@ Additional features:
 -After a fighter has broken out of formation to attack player and misses, it will continue to target player and fly in from the top again and again
 -Moving space background
 
-Note:
+###Note:
 -Game takes a few seconds to load when first launched
 -You can select items from the main menu using the up and down keys and the space bar
 -When viewing the high score page, you can push space bar to return to the main menu
