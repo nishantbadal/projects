@@ -1,10 +1,13 @@
-README
+# Tic-Tac-Toe
 
-Nishant Badal
+### Description:
+A 2-player tic-tac-toe iOS game made using Swift. Has game logic, animations, drag/drop functionality, and sound effects.
 
-Notes:
-All functionality works.
+### Running Instructions:
+Download/clone repository. Open TicTacToe/TicTacToe folder with XCode.
+
+### Notes:
 After winning or getting to a stalemate on first game, the Xs and Os fly in from the left.
 
-For the growing animation:
--Attributions: http://jamesonquave.com/blog/category/swift-3/
+### Attributions: 
+For growing animation - http://jamesonquave.com/blog/category/swift-3/
