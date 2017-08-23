@@ -1,5 +1,6 @@
 # MIPS Matrix Multiplication and Addition
 ![ScreenShot](mips.png)
+Program computes matrix multiplication/addition shown above.
 
 ### Description:
 Computes the multiplication of 3x2 and 2x3 matrices A and B (which contain floating point values) using the MIPS Assembly Language. This yields a 3x3 matrix. The result is then added with matrix C, which is 3x3.
