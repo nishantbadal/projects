@@ -2,7 +2,7 @@
 ![ScreenShot](galaga.png)
 
 ### Description:
-A version of Galaga with endless waves of enemies. Utilizes object-oriented design, MVC design pattern, and Swing.
+A version of Galaga with endless waves of enemies made using Java. Utilizes object-oriented design, MVC design pattern, and Swing.
 
 ### Run Instructions:
 Download/clone repository. Open GalagaEndlessWave folder with Intellij IDEA. Run main method in class Game. Game is located in mvc/controller/Game.
