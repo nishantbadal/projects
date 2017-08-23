@@ -1,5 +1,6 @@
 # MIPS Matrix Multiplication and Addition
 ![ScreenShot](mips.png)
+
 Program computes matrix multiplication/addition shown above.
 
 ### Description:
