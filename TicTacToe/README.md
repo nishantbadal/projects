@@ -4,9 +4,13 @@
 ### Description:
 A 2-player tic-tac-toe iOS game made using Swift. The application has game logic, animations, drag/drop functionality, and sound effects.
 
-### Running Instructions:
-Download/clone repository. Open TicTacToe/TicTacToe folder with XCode. Run on a selected target.
+### Run Instructions:
+Download/clone repository. Open TicTacToe.xcodeproj file in TicTacToe/TicTacToe folder with XCode. Run application on a selected target.
 
+### Controls:
+    
+    Move X/Os - drag to grid on screen
+    
 ### Notes:
 After winning or getting to a stalemate on first game, the Xs and Os fly in from the left.
 
