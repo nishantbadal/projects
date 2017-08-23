@@ -1,4 +1,5 @@
 # Galaga - Endless Wave Mode
+![Alt text](/galaga.png?raw=true "Optional Title")
 
 ### Description:
 A version of Galaga with endless waves of enemies. Utilizes object-oriented design, MVC design pattern, and Swing.
